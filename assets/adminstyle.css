@@ -1,0 +1,83 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 20px
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+div{
+    border-top: 5px solid lightpink;
+    padding-top: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+div>p{
+    font-size: 16px;
+}
+
+section{
+    border-radius: 15px;
+    padding: 10px;
+    padding-right: 75px;
+    padding-left: 75px;
+    background-color: rgb(133, 126, 193);
+    display: inline-block;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+section>p{
+    text-align: left;
+}
+
+select{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#loginButton{
+    font-size: 16px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    background-color: lightpink;
+    display: flex;
+    margin-top: 15px;
+}
